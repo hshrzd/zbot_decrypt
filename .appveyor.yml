@@ -16,7 +16,6 @@ build:
 
 configuration:
   - Release
-  - Debug
   
 environment:
   artifactName: $(APPVEYOR_PROJECT_NAME)-$(APPVEYOR_REPO_COMMIT)-$(CONFIGURATION)
